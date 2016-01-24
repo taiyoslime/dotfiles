@@ -1,0 +1,3 @@
+##tszsh
+
+My zsh scripts
