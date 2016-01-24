@@ -1,4 +1,3 @@
-# dotfiles
 ## TODO
 - [ ] Add install.sh
   - [ ] Write scripts to setup homebrew
