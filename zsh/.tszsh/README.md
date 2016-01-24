@@ -4,7 +4,7 @@ My zsh scripts
 
 |name||
 |:--|:--|
-|.tsinit|to initialize these scripts|
+|.tsinit|initialize these scripts|
 |.tsenv|export and set environment variable|
 |.tsvar|define variable we use|
 |.tsalias|define aliases|
