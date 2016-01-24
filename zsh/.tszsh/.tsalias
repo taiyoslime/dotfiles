@@ -1,0 +1,10 @@
+alias open="open ."
+alias atom="atom ."
+alias v="vagrant"
+alias dict="open dict://"
+alias :q="quit||exit"
+
+# git utility
+alias gp="git push origin master"
+alias gc="git commit -a -m"
+alias gs="git status"
