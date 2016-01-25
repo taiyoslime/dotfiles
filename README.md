@@ -4,7 +4,7 @@
   - [ ] Write scripts to place and link each files
 - [ ] Add regist.sh
 - [ ] Add more dotfiles existing my computer
-  - [ ] Vim
+  - [x] Vim
   - [ ] npm
   - [ ] Atom
   - [ ] rbenv
