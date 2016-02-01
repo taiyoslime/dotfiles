@@ -9,6 +9,6 @@
   - [ ] Atom
   - [ ] rbenv
   - [ ] pyenv
-  - [ ] tmux
+  - [x] tmux
   - [ ] ssh
   - [ ] ...
