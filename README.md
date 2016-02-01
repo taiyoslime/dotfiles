@@ -1,7 +1,8 @@
 ## TODO
 - [ ] Add install.sh
-  - [ ] Write scripts to setup homebrew
+  - [x] Write scripts to setup homebrew
   - [ ] Write scripts to place and link each files
+    - especially language processors that conflict with what has already pre-installed in Mac.
 - [ ] Add regist.sh
 - [ ] Add more dotfiles existing my computer
   - [x] Vim
