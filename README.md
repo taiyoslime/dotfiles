@@ -6,7 +6,7 @@
 - [ ] Add regist.sh
 - [ ] Add more dotfiles existing my computer
   - [x] Vim
-  - [ ] npm
+  - [x] npm
   - [ ] Atom
   - [ ] rbenv
   - [ ] pyenv
