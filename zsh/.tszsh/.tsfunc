@@ -13,16 +13,14 @@ function c(){
 }
 
 function g(){
-	echo  -e '\e[34m[RUN]\e[mPull from remote..\n'
-	git pull origin master
+	echo  -e '\e[34m[RUN]\e[mPull from remote...' && git pull origin master
 	git add -A || return
 	if [ ! $1 ]; then
 		git commit -a -m 'add and change files(no comment)'
 	else
 		git commit -a -m $1
 	fi
-	echo 'Push to remote...'
-	git push origin master
+	echo -e '\e[34m[RUN]\e[mPush to remote...' && git push origin master
 }
 
 function a()
