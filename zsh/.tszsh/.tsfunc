@@ -13,7 +13,7 @@ function c(){
 }
 
 function g(){
-	echo 'Pull from remote..'
+	echo  -e '\e[34m[RUN]\e[mPull from remote..¥n'
 	git pull origin master
 	git add -A || return
 	if [ ! $1 ]; then
