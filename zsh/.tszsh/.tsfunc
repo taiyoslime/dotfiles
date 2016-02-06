@@ -13,6 +13,8 @@ function c(){
 }
 
 function g(){
+	echo 'Pull from remote..'
+	git pull origin master
 	git add -A || return
 	if [ ! $1 ]; then
 		git commit -a -m 'add and change files(no comment)'
