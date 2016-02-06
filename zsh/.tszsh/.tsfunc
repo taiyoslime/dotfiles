@@ -4,9 +4,12 @@ function cdp {
 		cd "$dir"
 	fi
 }
-
 function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
+}
+
+function c(){
+	pbcopy && echo "Copy to Clipboard!"
 }
 
 function g(){
@@ -19,7 +22,6 @@ function g(){
 	echo 'Push to remote...'
 	git push origin master
 }
-
 
 function a()
 {
@@ -49,7 +51,6 @@ function localope () {
 }
 
 function vu(){
-	tmux
 	cd $local
 	vagrant up &&  vagrant ssh
 }
@@ -68,6 +69,12 @@ function fshow(){
 }
 function fhide(){
 	defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder
+}
+
+# あんぽんたん => ｱﾝﾎﾟﾝﾀﾝ
+function kana(){
+	echo $1 |nkf --katakana | nkf -Z4
+
 }
 
 # utility function for JOI

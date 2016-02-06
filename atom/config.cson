@@ -1,0 +1,63 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "b25c03b3-9dd8-40d0-8bd3-c5ec0f14ffa2"
+    language_c_default_beautifier: "clang-format"
+    language_cpp_default_beautifier: "clang-format"
+  "autoclose-html": {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "vim-mode"
+      "linter-cpplint"
+      "terminal-plus"
+      "atom-jshint"
+      "wrap-guide"
+      "angularjs"
+      "atom-debugger"
+      "git-plus"
+      "git-control"
+      "markdown-preview-plus"
+      "jslint"
+      "linter-js-standard"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/taiyoslime/Desktop"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 15
+    invisibles: {}
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "20d7f479-2b06-63d6-75ca-f44367310041"
+  "find-and-replace": {}
+  "git-plus": {}
+  linter:
+    errorPanelHeight: 110
+  "linter-clang": {}
+  "linter-cpplint": {}
+  "linter-eslint": {}
+  "markdown-preview": {}
+  minimap:
+    absoluteMode: true
+    adjustMinimapWidthToSoftWrap: false
+    displayPluginsControls: false
+    scrollAnimation: true
+  "one-light-ui": {}
+  pigments: {}
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "inverse"
+    toggles:
+      autoClose: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false

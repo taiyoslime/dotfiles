@@ -1,9 +1,12 @@
 export PYENV_ROOT=${HOME}/.pyenv
 if [ -d "${PYENV_ROOT}" ]; then
-	export PATH=${PYENV_ROOT}/bin:$PATH
-	eval "$(pyenv init -)"
-	eval "$(pyenv virtualenv-init -)"
+	    export PATH=${PYENV_ROOT}/bin:$PATH
+	        eval "$(pyenv init -)"
+		    eval "$(pyenv virtualenv-init -)"
 fi
+
+if [[ -s $HOME/.nvm/nvm.sh ]] ; then source $HOME/.nvm/nvm.sh ; fi
+
 
 export CLICOLOR=1
 export LSCOLORS=exfxcxdxbxegedabagacad
