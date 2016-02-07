@@ -1,3 +1,6 @@
+# grep is too slow
+alias grep="ag"
+
 alias open="open ."
 alias atom="atom ."
 alias v="vagrant"
