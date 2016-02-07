@@ -1,0 +1,26 @@
+*.bin
+*.swp
+*.bak
+*.old
+*.egg
+*.egg-info
+*.crt
+*.key
+*.pem
+*.pub
+*.cert
+*.csr
+*.zip
+*.tar.gz
+*.jpeg
+*.png
+*.gif
+*.out
+*.mp4
+*.mov
+.vim/bundle
+.vim/dict
+node_modules
+bower_components
+
+# .git
