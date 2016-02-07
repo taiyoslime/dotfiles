@@ -127,7 +127,7 @@ let g:neocomplete#keyword_patterns._ = '\h\w*'
 
 
 "nyan-modoki
-"たけせー作うーにゃープラグイン
+"うーにゃープラグイン
 NeoBundle 'drillbits/nyan-modoki.vim'
 set laststatus=2
 set statusline=%F%m%r%h%w[%{&ff}]%=%{g:NyanModoki()}(%l,%c)[%P]
