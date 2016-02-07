@@ -43,5 +43,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# componets of package manager
+bower_components
 node_modules
+
+# binary files from gcc
 *.out
