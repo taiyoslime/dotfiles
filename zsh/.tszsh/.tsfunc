@@ -4,6 +4,7 @@ function cdp {
 		cd "$dir"
 	fi
 }
+# vim を利用してファイルの中身までag
 function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
 }
@@ -13,6 +14,7 @@ function c(){
 	pbcopy && echo "Copy to Clipboard!"
 }
 
+# git utility
 function g(){
 	echo -e '\n\e[34m[RUN]\e[mPull from remote...' && git pull origin master
 	echo -e '\n\e[34m[RUN]\e[madd and commit '
@@ -25,6 +27,7 @@ function g(){
 	echo -e '\n\e[34m[RUN]\e[mPush to remote...' && git push origin master
 }
 
+# to run a C++ program
 function a()
 {
 	g++ $1 -std=c++11 -Wall -O2
@@ -52,6 +55,7 @@ function localope () {
     cd $dir
 }
 
+# vagrant is god
 function vu(){
 	cd $local
 	vagrant up &&  vagrant ssh
@@ -60,12 +64,14 @@ function vu(){
 
 function mk(){
 	if [ "${1##*.}" = "cpp" ]; then
+		# seems to be bad..
 		echo "#include <iostream>\nusing namespace std;\nint main(){\n\n}">$1
 	else
 		:>$1
 	fi
 }
 
+# Finder utilities
 function fshow(){
 	defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder
 }
@@ -73,7 +79,7 @@ function fhide(){
 	defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder
 }
 
-# related to alias for extract
+# related to alias for extract.
 function extract() {
   case $1 in
     *.tar.gz|*.tgz) tar xzvf $1;;
@@ -97,7 +103,7 @@ function kana(){
 
 }
 
-# utility function for JOI
+# utility functions for JOI
 function joi(){
 	#rm ./joi-$1
 	g++ q$1.cpp -Wall -O2 -o joi-$1.out
