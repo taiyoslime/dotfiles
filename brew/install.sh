@@ -9,14 +9,14 @@ brew update
 brew upgrade
 
 # load module list from ./list
-list=`cat ./list`
+brew_list=`cat ./list`
 
 # IFSの設定
 IFS_SAVE=$IFS
 IFS=$'\n'
 
 # モジュールをインストール
-for i in ${list[@]}
+for i in ${brew_list[@]}
 do
  brew install $i
 done
