@@ -6,7 +6,7 @@ Some of my dotfiles using for dev.
 
 - Download & install
 ```
-git clone https://github.com/taiyoslime/dotfiles && cd dotfiles
+git clone --recursive https://github.com/taiyoslime/dotfiles && cd dotfiles
 chmod +x ./install.sh && ./install.sh
 ```
 - Update
