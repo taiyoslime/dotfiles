@@ -1,6 +1,5 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "b25c03b3-9dd8-40d0-8bd3-c5ec0f14ffa2"
     language_c_default_beautifier: "clang-format"
     language_cpp_default_beautifier: "clang-format"
   "autoclose-html": {}
