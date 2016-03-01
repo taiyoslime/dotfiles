@@ -4,12 +4,15 @@ function cdp {
 		cd "$dir"
 	fi
 }
+
 # vim を利用してファイルの中身までag
 function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
 }
 
-#  $ <<something output to stdout>> | c
+# usage
+#
+# $ <<something output to stdout>> | c
 function c(){
 	pbcopy && echo "Copy to Clipboard!"
 }
@@ -114,6 +117,7 @@ function joi(){
 	fi
 
 }
+
 function run(){
 	if [ $# -eq 1 ]; then
 		zsh run.sh $1
