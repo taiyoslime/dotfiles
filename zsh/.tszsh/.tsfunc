@@ -9,14 +9,14 @@ function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
 }
 
-#  $ <<something output to stdout>> | c 
+#  $ <<something output to stdout>> | c
 function c(){
 	pbcopy && echo "Copy to Clipboard!"
 }
 
 # git utility
 function g(){
-	echo -e '\n\e[34m[RUN]\e[mPull from remote...' && git pull origin master
+	echo -e '\n\e[34m[RUN]\e[mPull from remote...' && git pull origin
 	echo -e '\n\e[34m[RUN]\e[madd and commit '
 	git add -A
 	if [ ! $1 ]; then
@@ -24,7 +24,7 @@ function g(){
 	else
 		git commit -a -m $1
 	fi
-	echo -e '\n\e[34m[RUN]\e[mPush to remote...' && git push origin master
+	echo -e '\n\e[34m[RUN]\e[mPush to remote...' && git push origin
 }
 
 # to run a C++ program
