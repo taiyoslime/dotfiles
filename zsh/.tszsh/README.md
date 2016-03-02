@@ -1,8 +1,8 @@
 ##tszsh
 
-My zsh scripts.
+My personal zsh scripts.
 
-It depends and based on prezto.
+It depends and based on [prezto](https://github.com/sorin-ionescu/prezto).
 
 |name||
 |:--|:--|

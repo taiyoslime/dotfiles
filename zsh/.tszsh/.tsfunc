@@ -106,7 +106,10 @@ function kana(){
 
 }
 
+
+#
 # utility functions for JOI
+# 
 function joi(){
 	#rm ./joi-$1
 	g++ q$1.cpp -Wall -O2 -o joi-$1.out
