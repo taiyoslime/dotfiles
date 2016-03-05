@@ -17,6 +17,19 @@ Just run `update.sh`.
 chmod +x ./update.sh && ./update.sh
 ```
 
+##lists
+- ag
+- Atom
+- editorconfig
+- Homebrew
+- git
+- Haroopad
+- htop
+- npm
+- tmux
+- Vim
+- zsh
+
 ## TODO
 - [ ] Add install.sh
   - [x] Write scripts to setup homebrew
