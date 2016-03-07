@@ -82,6 +82,14 @@ function fhide(){
 	defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder
 }
 
+# Desktop icon utilities
+function dshow(){
+	defaults write com.apple.finder CreateDesktop TRUE && killall Finder
+}
+function dhide(){
+	defaults write com.apple.finder CreateDesktop FALSE && killall Finder
+}
+
 # related to alias for extract.
 function extract() {
   case $1 in
@@ -109,7 +117,7 @@ function kana(){
 
 #
 # utility functions for JOI
-# 
+#
 function joi(){
 	#rm ./joi-$1
 	g++ q$1.cpp -Wall -O2 -o joi-$1.out
