@@ -1,5 +1,0 @@
-# source all scripts
-source "${TAIYOSLIME_SHDIR}/.tszsh/.tsenv"
-source "${TAIYOSLIME_SHDIR}/.tszsh/.tsalias"
-source "${TAIYOSLIME_SHDIR}/.tszsh/.tsfunc"
-source "${TAIYOSLIME_SHDIR}/.tszsh/.tszstyle"
