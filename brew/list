@@ -11,6 +11,7 @@ dmd
 editorconfig
 elixir
 erlang
+ffmpeg
 fish
 freetype
 fzf
@@ -26,6 +27,7 @@ gperftools
 highway
 htop-osx
 isl
+john
 jpeg
 lame
 libevent
@@ -37,6 +39,7 @@ libyaml
 mecab
 mongodb
 mpfr
+mplayer
 nkf
 nmap
 node
@@ -47,10 +50,13 @@ peco
 pkcrack
 pkg-config
 postgresql
+progress
 pyenv
 pyenv-virtualenv
 rbenv
 readline
+ruby-build
+speedtest_cli
 sqlite
 the_silver_searcher
 tig
@@ -64,5 +70,6 @@ wxmac
 x264
 xvid
 xz
+youtube-dl
 zsh
 zsh-completions
