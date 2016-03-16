@@ -22,3 +22,7 @@ alias ydl-list="youtube-dl -F"
 alias gp="git push -u origin master"
 alias gc="git commit -a -m"
 alias gs="git status"
+
+# thefuck configuration
+alias fuck='eval "$(thefuck --alias)"'
+alias shit='eval "$(thefuck --alias)"'
