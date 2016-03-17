@@ -16,3 +16,5 @@ export PATH=${GOPATH}/bin:$PATH
 
 export local=~/Vagrant/local
 export WORK=~/Desktop/Project
+
+export PATH=$PATH:~/.bin
