@@ -10,6 +10,7 @@ brew upgrade
 
 # load module list from ./list
 brew_list=`cat ./list`
+brew_cask_list=`cat ./casklist`
 
 # IFSの設定
 IFS_SAVE=$IFS
@@ -20,6 +21,12 @@ for i in ${brew_list[@]}
 do
  brew install $i
 done
+
+for i in ${brew_cask_list[@]}
+do
+ brew cask install $i
+done
+
 
 # 後始末(必要なのか)
 IFS=$IFS_SAVE
