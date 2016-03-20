@@ -17,13 +17,11 @@ IFS_SAVE=$IFS
 IFS=$'\n'
 
 # モジュールをインストール
-for i in ${brew_list[@]}
-do
+for i in ${brew_list[@]} ; do
  brew install $i
 done
 
-for i in ${brew_cask_list[@]}
-do
+for i in ${brew_cask_list[@]} ; do
  brew cask install $i
 done
 

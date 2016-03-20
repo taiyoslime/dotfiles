@@ -6,8 +6,7 @@ IFS_SAVE=$IFS
 IFS=$'\n'
 
 # モジュールをインストール
-for i in ${brew_list[@]}
-do
+for i in ${brew_list[@]} ; do
  brew link $i
 done
 
