@@ -2,6 +2,7 @@ aircrack-ng
 android-sdk
 autoconf
 automake
+autopsy
 binutils
 boost
 brew-cask
@@ -17,6 +18,7 @@ erlang
 ffmpeg
 fish
 fontconfig
+foremost
 freetype
 fzf
 gcc
@@ -39,6 +41,7 @@ jasper
 john
 jpeg
 lame
+libdnet
 libevent
 libgphoto2
 libicns
@@ -77,6 +80,8 @@ rbenv
 readline
 ruby-build
 sane-backends
+scapy
+sleuthkit
 speedtest_cli
 sqlite
 the_silver_searcher
