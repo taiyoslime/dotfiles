@@ -7,6 +7,9 @@ alias v="vagrant"
 alias dict="open dict://"
 alias :q="quit||exit"
 alias q="quit||exit"
+# typo
+alias oepn="open"
+alias opne="open"
 
 alias ...="cd ../.."
 
