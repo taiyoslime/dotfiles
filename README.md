@@ -5,7 +5,7 @@ Some of my dotfiles using for dev.
 ## Usage
 
 #### Download & install
-Clone this repository ( don't forget to specify ` --recursive` option ,or execute `git submodule init && git submodule update` additionally to set up submodules ) and then execute `install.sh`.
+Clone this repository ( don't forget to specify ` --recursive` option, or execute `git submodule init && git submodule update` additionally to set up submodules ) and then execute `install.sh`.
 ```
 git clone --recursive https://github.com/taiyoslime/dotfiles
 cd dotfiles
@@ -25,6 +25,7 @@ chmod +x ./update.sh && ./update.sh
 - git
 - Haroopad
 - htop
+- Karabinar
 - npm
 - tmux
 - Vim
@@ -39,7 +40,7 @@ chmod +x ./update.sh && ./update.sh
 - [ ] Add more dotfiles existing my computer
   - [x] Vim
   - [x] npm
-  - [ ] Atom
+  - [x] Atom
   - [ ] rbenv
   - [ ] pyenv
   - [x] tmux
