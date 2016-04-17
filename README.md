@@ -1,6 +1,6 @@
 ## Overview
 
-Some of my dotfiles using for dev.
+Some of my dotfiles and configuration files using for dev.
 
 ## Usage
 
