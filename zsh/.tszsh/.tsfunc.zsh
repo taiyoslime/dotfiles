@@ -45,10 +45,10 @@ function title()
 {
 
 if [ "$#" -eq 0 ];then
-	  echo "usage tl name "
+	echo "usage tl name "
 else
-	    echo -en "\033];$1\007"
-    fi
+	echo -en "\033];$1\007"
+fi
 }
 
 function localope () {

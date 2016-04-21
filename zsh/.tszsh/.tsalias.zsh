@@ -11,6 +11,10 @@ alias q="quit||exit"
 alias oepn="open"
 alias opne="open"
 
+# to open URL
+alias twitter="open http://twitter.com"
+alias github="open http://github.com"
+
 alias ...="cd ../.."
 
 # related 'extract' function
