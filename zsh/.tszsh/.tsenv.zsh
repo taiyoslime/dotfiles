@@ -6,6 +6,10 @@ if [ -d "${PYENV_ROOT}" ]; then
 	eval "$(pyenv virtualenv-init -)"
 fi
 
+export PATH=${HOME}/.rbenv/bin:$PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+
 if [[ -s $HOME/.nvm/nvm.sh ]] ; then source $HOME/.nvm/nvm.sh ; fi
 
 export GOPATH=$HOME/.go
