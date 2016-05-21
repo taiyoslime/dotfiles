@@ -21,7 +21,7 @@ alias ...="cd ../.."
 alias -s {gz,tgz,zip,lzh,bz2,tbz,Z,tar,arj,xz}=extract
 
 # youtube-dl utility
-alias ydl="youtube-dl -f 'best[ext!=webm]' -o '~/Desktop/%(title)s.%(ext)s'"
+alias ydl="youtube-dl -f bestvideo+bestaudio --recode-video mp4 -o '~/Desktop/%(title)s.%(ext)s'"
 alias ydl-audio="youtube-dl -f 'bestaudio[ext!=webm]' --audio-quality 0 -o '~/Desktop/%(title)s.%(ext)s'"
 alias ydl-list="youtube-dl -F"
 
