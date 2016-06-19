@@ -23,12 +23,16 @@ linter-csslint
 linter-eslint
 linter-gcc
 linter-js-standard
+linter-ruby
 linter-scss-lint
 markdown-preview-plus
+maximize-panes
 minimap
-native-ui
+minimap-autohide
 pigments
+project-manager
 script
 tabs-to-spaces
 terminal-plus
+tree-view-finder
 vim-mode
