@@ -114,6 +114,18 @@ function kana(){
 
 }
 
+function oj-aoj(){
+	~WORK/OJ/oj.py --aoj ${1%.*} -i $1 -c --setting-file-path ~WORK/OJ/setting.json
+	echo "Want to submit the code? [Y/n]"
+	read ANS
+	case `echo $ANS | tr N n` in
+    	"" | N* ) return ;;
+	esac
+	~WORK/OJ/oj.py --aoj ${1%.*} -i $1 -s
+}
+
+
+
 
 #
 # utility functions for JOI
