@@ -5,6 +5,19 @@ function cdp {
 	fi
 }
 
+function stprsenmd {
+	trap "
+		defaults -currentHost write com.apple.screensaver idleTime -int $_idleTime
+		dshow
+		echo '\nhalted'
+		" 1 2 3 15
+	local _idleTime="$(defaults -currentHost read com.apple.screensaver idleTime)"
+	dhide
+	defaults -currentHost write com.apple.screensaver idleTime -int 0
+	echo "Presentation mode has started. Press Ctr+C to quit."
+	caffeinate
+}
+
 # vim を利用してファイルの中身までag
 function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
