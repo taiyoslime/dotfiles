@@ -1,3 +1,6 @@
+
+
+
 function cdp {
 	local dir="$( ls -1d */ | peco )"
 	if [ ! -z "$dir" ] ; then
@@ -5,6 +8,7 @@ function cdp {
 	fi
 }
 
+# プレゼンテーションモード
 function stprsenmd {
 	trap "
 		defaults -currentHost write com.apple.screensaver idleTime -int $_idleTime
@@ -64,8 +68,16 @@ else
 fi
 }
 
-function localope () {
-    local dir=`pwd`
+
+#### vagrant utils
+
+
+function l2v (){
+	cp $1 $local && echo "copied ${1} to ${local}"
+}
+
+function vsta () {
+    local dir=`pwds`
     cd $local
     vagrant "${1:-status}"
     cd $dir
@@ -76,6 +88,8 @@ function vu(){
 	cd $local
 	vagrant up &&  vagrant ssh
 }
+
+
 
 
 function mk(){
