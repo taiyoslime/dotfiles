@@ -3,9 +3,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-TAIYOSLIME_SHDIR=$HOME
-
-source "${TAIYOSLIME_SHDIR}/tszsh/.tsinit.zsh"
+source "~/Desktop/Project/dotfiles/zsh/tszsh/.tsinit.zsh"
 
 #zsh plugins
 # source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
