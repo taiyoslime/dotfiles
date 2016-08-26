@@ -1,6 +1,3 @@
-
-
-
 function cdp {
 	local dir="$( ls -1d */ | peco )"
 	if [ ! -z "$dir" ] ; then
