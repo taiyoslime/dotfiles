@@ -12,6 +12,7 @@ cpptools
 docblockr
 editorconfig
 emmet
+expose
 file-icons
 git-control
 git-plus
@@ -25,14 +26,19 @@ linter-gcc
 linter-js-standard
 linter-ruby
 linter-scss-lint
+markdown-preview-opener
 markdown-preview-plus
+markdown-scroll-sync
+markdown-toolbar
 maximize-panes
 minimap
 minimap-autohide
 pigments
 project-manager
 script
+symbols-tree-view
 tabs-to-spaces
 terminal-plus
+tidy-markdown
 tree-view-finder
 vim-mode
