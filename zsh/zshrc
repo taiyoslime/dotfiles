@@ -5,7 +5,7 @@ fi
 
 TAIYOSLIME_SHDIR=$HOME
 
-source "${TAIYOSLIME_SHDIR}/.tszsh/.tsinit.zsh"
+source "${TAIYOSLIME_SHDIR}/tszsh/.tsinit.zsh"
 
 #zsh plugins
 # source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
