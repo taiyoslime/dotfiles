@@ -33,3 +33,8 @@ alias gs="git status"
 # thefuck configuration
 alias fuck='eval "$(thefuck --alias)"'
 alias shit='eval "$(thefuck --alias)"'
+
+# stack (haskell dev platform) utility
+alias ghc="stack ghc"
+alias runghc="stack runghc"
+alias ghci="stack ghci"
