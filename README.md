@@ -5,23 +5,23 @@ Some of my dotfiles and configuration files using for dev.
 ## Usage
 
 #### Download & install
-Clone this repository ( don't forget to specify ` --recursive` option, or execute `git submodule init && git submodule update` additionally to set up submodules ) and then execute `install.sh`.
+Clone this repository ( don't forget to specify ` --recursive` option, or execute `$ git submodule init && git submodule update` additionally to set up submodules ) and then execute `install.sh`.
 ```
-git clone --recursive https://github.com/taiyoslime/dotfiles
-cd dotfiles
-chmod +x ./install.sh && ./install.sh
+$ git clone --recursive https://github.com/taiyoslime/dotfiles && cd dotfiles
+$ chmod +x ./install.sh && ./install.sh
 ```
 #### Update
 Just run `update.sh`.
 ```
-chmod +x ./update.sh && ./update.sh
+# chmod +x ./update.sh
+$ ./update.sh
 ```
 
 ##lists
 - ag
 - Atom
 - editorconfig
-- Homebrew
+- Homebrew & mas
 - git
 - Haroopad
 - htop

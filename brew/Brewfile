@@ -1,0 +1,184 @@
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/python'
+tap 'homebrew/versions'
+tap 'sanemat/font'
+tap 'tkengo/highway'
+tap 'yudai/gotty'
+cask 'xquartz'
+brew 'pkg-config'
+brew 'readline'
+brew 'icu4c'
+brew 'sqlite'
+brew 'makedepend'
+brew 'openssl', args: ['universal']
+brew 'aircrack-ng'
+brew 'android-sdk'
+brew 'xz'
+brew 'gettext'
+brew 'libffi'
+brew 'pcre'
+brew 'glib'
+brew 'libpng', args: ['universal']
+brew 'freetype', args: ['universal']
+brew 'fontconfig', args: ['universal']
+brew 'pixman'
+brew 'cairo'
+brew 'git'
+brew 'gobject-introspection'
+brew 'atk'
+brew 'autoconf'
+brew 'automake'
+brew 'libtool', args: ['universal']
+brew 'libewf'
+brew 'sleuthkit'
+brew 'autopsy'
+brew 'binutils'
+brew 'cmake'
+brew 'postgresql'
+brew 'qt'
+brew 'shiboken'
+brew 'pyside'
+brew 'p7zip'
+brew 'ssdeep'
+brew 'gmp'
+brew 'mpfr'
+brew 'libmpc'
+brew 'isl'
+brew 'gcc'
+brew 'binwalk'
+brew 'boost'
+brew 'bsdmake'
+brew 'cabextract'
+brew 'clang-format'
+brew 'cppunit'
+brew 'libsodium'
+brew 'zeromq'
+brew 'czmq'
+brew 'dex2jar'
+brew 'dmd'
+brew 'editorconfig'
+brew 'jpeg', args: ['universal']
+brew 'libtiff', args: ['universal']
+brew 'wxmac'
+brew 'erlang'
+brew 'elixir'
+brew 'exiftool'
+brew 'fcrackzip'
+brew 'x264'
+brew 'lame'
+brew 'xvid'
+brew 'webp', args: ['universal']
+brew 'ffmpeg'
+brew 'fish'
+brew 'flow'
+brew 'harfbuzz'
+brew 'pango'
+brew 'fontforge'
+brew 'foremost'
+brew 'go'
+brew 'fzf'
+brew 'gd', args: ['universal']
+brew 'gdb'
+brew 'gdbm'
+brew 'gdk-pixbuf'
+brew 'git-flow'
+brew 'gnu-apl'
+brew 'libtasn1', args: ['universal']
+brew 'nettle'
+brew 'gnutls'
+brew 'gperftools'
+brew 'jasper', args: ['universal']
+brew 'hicolor-icon-theme'
+brew 'gtk+'
+brew 'hashpump'
+brew 'haskell-stack'
+brew 'lua'
+brew 'highlight'
+brew 'htop-osx'
+brew 'irssi'
+brew 'john-jumbo'
+brew 'libdnet'
+brew 'libevent'
+brew 'libusb', args: ['universal']
+brew 'libusb-compat', args: ['universal']
+brew 'libgphoto2', args: ['universal']
+brew 'libicns', args: ['universal']
+brew 'libmagic'
+brew 'libvo-aacenc'
+brew 'libyaml'
+brew 'little-cms2', args: ['universal']
+brew 'lua51'
+brew 'lzip'
+brew 'mas'
+brew 'mecab'
+brew 'mongodb'
+brew 'mplayer'
+brew 'nkf'
+brew 'nmap'
+brew 'node'
+brew 'pacvim'
+brew 'pdfcrack'
+brew 'peco'
+brew 'pkcrack'
+brew 'progress'
+brew 'pyenv'
+brew 'pyenv-virtualenv'
+brew 'qemu'
+brew 'yara'
+brew 'radare2'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'rp'
+brew 'sane-backends', args: ['universal']
+brew 'simh'
+brew 'sl'
+brew 'socat'
+brew 'speedtest_cli'
+brew 'the_silver_searcher'
+brew 'thefuck'
+brew 'tig'
+brew 'tmux'
+brew 'tree'
+brew 'unixodbc'
+brew 'unrar'
+brew 'vim'
+brew 'wget'
+brew 'wine'
+brew 'winetricks'
+brew 'youtube-dl'
+brew 'zsh', args: ['without-etcdir']
+brew 'zsh-completions'
+brew 'homebrew/python/scapy'
+brew 'tkengo/highway/highway'
+cask 'betterzipql'
+cask 'black-screen'
+cask 'caprine'
+cask 'clion'
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+mas 'LINE', id: 539883307
+mas 'Keynote', id: 409183694
+mas 'Todoist', id: 585829637
+mas 'iPhoto', id: 408981381
+mas 'The Unarchiver', id: 425424353
+mas 'GIPHY CAPTURE', id: 668208984
+mas 'GarageBand', id: 682658836
+mas 'Beautiful Earth', id: 1041381991
+mas 'SourceTree', id: 411678673
+mas 'StreamCloud', id: 894578573
+mas 'Kiritori', id: 585126594
+mas 'Xcode', id: 497799835
+mas 'DMesh', id: 480992638
+mas 'Pages', id: 409201541
+mas 'feedly', id: 865500966
+mas 'Numbers', id: 409203825
+mas 'iMovie', id: 408981434
+mas 'Slack', id: 803453959
+mas 'DrCleaner', id: 921458519
+mas 'Pixlr', id: 880663569
+mas 'Pocket', id: 568494494
+mas 'Dash', id: 449589707
