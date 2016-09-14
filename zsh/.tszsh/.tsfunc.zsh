@@ -80,21 +80,16 @@ function vsta () {
     cd $dir
 }
 
-# vagrant is god
 function vu(){
 	cd $local
 	vagrant up &&  vagrant ssh
 }
 
 
-
-
 function mk(){
 	if [ "${1##*.}" = "cpp" ]; then
 		# seems to be bad..
 		echo "#include <iostream>\nusing namespace std;\nint main(){\n\n}">$1
-	else
-		:>$1
 	fi
 }
 
@@ -147,7 +142,6 @@ function oj-aoj(){
 	esac
 	~WORK/OJ/oj.py --aoj ${1%.*} -i $1 -s
 }
-
 
 
 
