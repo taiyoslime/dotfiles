@@ -19,6 +19,7 @@ alias ...="cd ../.."
 
 # related 'extract' function
 alias -s {gz,tgz,zip,lzh,bz2,tbz,Z,tar,arj,xz}=extract
+alias -s exe="wine"
 
 # youtube-dl utility
 alias ydl="youtube-dl -f bestvideo+bestaudio --recode-video mp4 -o '~/Desktop/%(title)s.%(ext)s'"
@@ -28,7 +29,7 @@ alias ydl-list="youtube-dl -F"
 # git utility
 alias gp="git push -u origin master"
 alias gc="git commit -a -m"
-alias gs="git status -s" 
+alias gs="git status -s"
 
 # thefuck configuration
 alias fuck='eval "$(thefuck --alias)"'

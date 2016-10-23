@@ -127,6 +127,7 @@ function extract() {
 }
 
 
+
 # あんぽんたん => ｱﾝﾎﾟﾝﾀﾝ
 function kana(){
 	echo $1 |nkf --katakana | nkf -Z4
