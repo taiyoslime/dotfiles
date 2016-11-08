@@ -89,7 +89,7 @@ function vu(){
 function mk(){
 	if [ "${1##*.}" = "cpp" ]; then
 		# seems to be bad..
-		echo "#include <iostream>\nusing namespace std;\nint main(){\n\n}">$1
+		echo "#include <bits/stdc++.h>\nusing namespace std;\nint main(){\n\n}">$1
 	fi
 }
 
