@@ -1,0 +1,10 @@
+#!/usr/bin/osascript -l JavaScript
+app = Application("com.apple.iTunes")
+name = app.currentTrack().name()
+artist = app.currentTrack().artist()
+album = app.currentTrack().album()
+duration = app.currentTrack().duration()
+sec = duration / 60 | 0
+min = duration % 60 | 0
+if(min < 10) min = "0" + min
+result = `${name} - ${artist} / ${album} [${sec}:${min}] #NowPlaying`

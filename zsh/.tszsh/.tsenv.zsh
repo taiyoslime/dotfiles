@@ -21,4 +21,6 @@ export PATH=${GOPATH}/bin:$PATH
 export local=~/Vagrant/local
 export WORK=~/Desktop/Project
 
-export PATH=$PATH:~/.bin
+export PATH="$PATH:~/.bin"
+export PATH="$WORK/dotfiles/applescript:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"

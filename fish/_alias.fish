@@ -17,9 +17,6 @@ alias github="open http://github.com"
 
 alias ...="cd ../.."
 
-#nowplaying
-alias nowplaying_tweet='t tweet "$(nowplaying)"'
-
 # related 'extract' function
 alias -s {gz,tgz,zip,lzh,bz2,tbz,Z,tar,arj,xz}=extract
 alias -s exe="wine"
