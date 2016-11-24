@@ -1,5 +1,7 @@
 #!/usr/bin/osascript -l JavaScript
 app = Application("com.apple.iTunes")
+if(at
+)
 name = app.currentTrack().name()
 artist = app.currentTrack().artist()
 album = app.currentTrack().album()

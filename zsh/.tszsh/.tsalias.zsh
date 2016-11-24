@@ -17,6 +17,9 @@ alias github="open http://github.com"
 
 alias ...="cd ../.."
 
+alias batt="pmset -g ps | tail -n 1 | awk '{print $2" : "$4}' | sed 's/;//'"
+# <=> /usr/local/bin/battery
+
 #nowplaying
 alias nowplaying_tweet='t tweet "$(nowplaying)"'
 
