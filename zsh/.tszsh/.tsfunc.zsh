@@ -85,6 +85,15 @@ function vu(){
 	vagrant up &&  vagrant ssh
 }
 
+function  nowplaying_tweet(){
+	v=$(nowplaying)
+	if [ -n $v ];then
+		echo "Tweet: \n$v\n"
+		read ans
+		t tweet $v
+	fi
+}
+
 
 function mk(){
 	if [ "${1##*.}" = "cpp" ]; then

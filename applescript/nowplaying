@@ -1,12 +1,28 @@
 #!/usr/bin/osascript -l JavaScript
 app = Application("com.apple.iTunes")
-if(at
-)
-name = app.currentTrack().name()
-artist = app.currentTrack().artist()
-album = app.currentTrack().album()
-duration = app.currentTrack().duration()
-sec = duration / 60 | 0
-min = duration % 60 | 0
-if(min < 10) min = "0" + min
-result = `${name} - ${artist} / ${album} [${sec}:${min}] #NowPlaying`
+if( app.playerState() == "playing" ){
+	name = app.currentTrack().name()
+	artist = app.currentTrack().artist()
+	album = app.currentTrack().album()
+	duration = app.currentTrack().duration()
+	sec = duration / 60 | 0
+	min = duration % 60 | 0
+	if(min < 10) min = "0" + min
+	result = `${name} - ${artist} / ${album} [${sec}:${min}] #NowPlaying`
+} else {
+	app = Application("Google Chrome")
+	res = ""
+	app.windows().forEach(
+		function(window){
+			window.tabs().forEach(
+				function(tab){
+					if((tab.url().match(/www.nicovideo.jp/) || tab.url().match(/www.youtube.com/) )&&  res == ""){
+						res+=`${tab.name()} #NowPlaying \n${tab.url()} `
+						// よくわからないんだけどここでreturnしようとするとバグる
+					}
+				}
+			)
+		}
+	)
+	res
+}

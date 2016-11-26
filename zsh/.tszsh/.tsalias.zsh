@@ -20,8 +20,6 @@ alias ...="cd ../.."
 alias batt="pmset -g ps | tail -n 1 | awk '{print $2" : "$4}' | sed 's/;//'"
 # <=> /usr/local/bin/battery
 
-#nowplaying
-alias nowplaying_tweet='t tweet "$(nowplaying)"'
 
 # related 'extract' function
 alias -s {gz,tgz,zip,lzh,bz2,tbz,Z,tar,arj,xz}=extract
