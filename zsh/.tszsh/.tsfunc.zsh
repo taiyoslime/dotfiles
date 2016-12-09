@@ -54,6 +54,26 @@ function a()
 	fi
 }
 
+function peda()
+{
+	if [ -e ~/.gdbinit ]; then
+		mv ~/.gdbinit ~/._gdbinit
+		echo "gdb-peda is disabled."
+	else
+		mv ~/._gdbinit ~/.gdbinit
+		echo "gdb-peda is enabled"
+	fi
+}
+
+function dbg()
+{
+	g++ $1 -std=c++11 -g -O0 -o $1.out
+	if [ $? -eq 0 ]; then
+		echo -e '\e[32m [Build Success] \e[m'
+		gdb $1.out
+	fi
+}
+
 #terminalのバーのタイトルを変更
 function title()
 {
