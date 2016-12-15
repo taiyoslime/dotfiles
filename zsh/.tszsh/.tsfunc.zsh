@@ -1,3 +1,23 @@
+function shinchoku {
+
+	arr=("twitter.com" "youtube.com" "nicovideo.jp" )
+
+	for i in "${arr[@]}"
+	do
+		echo "[ACCESS✕]:${i}"
+		sudo sh -c "echo '127.0.0.1 "${i}"' >> /etc/hosts"
+	done
+	sudo killall -HUP mDNSResponder
+	echo "Press [Enter] to quit."
+	read tmp
+	for i in "${arr[@]}"
+	do
+		sudo sed -i "/"${i}"/d" /etc/hosts
+	done
+	sudo killall -HUP mDNSResponder
+
+}
+
 function cdp {
 	local dir="$( ls -1d */ | peco )"
 	if [ ! -z "$dir" ] ; then
@@ -173,8 +193,6 @@ function oj-aoj(){
 	~WORK/OJ/oj.py --aoj ${1%.*} -i $1 -s
 }
 
-
-
 #
 # utility functions for JOI
 #
@@ -192,6 +210,15 @@ function joi(){
 function run(){
 	if [ $# -eq 1 ]; then
 		zsh run.sh $1
+	else
+		echo 問題番号を指定して！
+	fi
+}
+
+
+function diff_p(){
+	if [ $# -eq 1 ]; then
+		zsh diff.sh $1
 	else
 		echo 問題番号を指定して！
 	fi
