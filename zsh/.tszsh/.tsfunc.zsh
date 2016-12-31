@@ -4,8 +4,8 @@ function shinchoku {
 
 	for i in "${arr[@]}"
 	do
-		echo "[ACCESS✕]:${i}"
 		sudo sh -c "echo '127.0.0.1 "${i}"' >> /etc/hosts"
+		echo "[ACCESS✕]:${i}"
 	done
 	sudo killall -HUP mDNSResponder
 	echo "Press [Enter] to quit."
