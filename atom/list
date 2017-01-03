@@ -19,6 +19,8 @@ git-plus
 highlight-selected
 javascript-snippets
 jslint
+language-babel
+language-x86asm
 linter
 linter-csslint
 linter-eslint
@@ -26,6 +28,7 @@ linter-gcc
 linter-js-standard
 linter-ruby
 linter-scss-lint
+markdown-pdf
 markdown-preview-opener
 markdown-preview-plus
 markdown-scroll-sync
@@ -35,6 +38,9 @@ minimap
 minimap-autohide
 pigments
 project-manager
+react
+react-es6-snippets
+react-redux-snippets
 script
 symbols-tree-view
 tabs-to-spaces

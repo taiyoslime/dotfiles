@@ -1,8 +1,10 @@
 tap 'caskroom/cask'
+tap 'homebrew/boneyard'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'homebrew/python'
 tap 'homebrew/versions'
+tap 'linux-noah/noah'
 tap 'sanemat/font'
 tap 'tkengo/highway'
 tap 'yudai/gotty'
@@ -15,7 +17,6 @@ brew 'makedepend'
 brew 'openssl', args: ['universal']
 brew 'aircrack-ng'
 brew 'android-sdk'
-brew 'xz'
 brew 'gettext'
 brew 'libffi'
 brew 'pcre'
@@ -34,14 +35,11 @@ brew 'libtool', args: ['universal']
 brew 'libewf'
 brew 'sleuthkit'
 brew 'autopsy'
+brew 'bdw-gc'
 brew 'binutils'
-brew 'cmake'
-brew 'postgresql'
-brew 'qt'
-brew 'shiboken'
-brew 'pyside'
 brew 'p7zip'
 brew 'ssdeep'
+brew 'xz', args: ['universal']
 brew 'gmp'
 brew 'mpfr'
 brew 'libmpc'
@@ -51,11 +49,20 @@ brew 'binwalk'
 brew 'boost'
 brew 'bsdmake'
 brew 'cabextract'
+brew 'cmake'
 brew 'clang-format'
 brew 'cppunit'
+brew 'libevent'
+brew 'gdbm'
+brew 'python'
+brew 'llvm'
+brew 'libyaml'
+brew 'crystal-lang'
 brew 'libsodium'
 brew 'zeromq'
 brew 'czmq'
+brew 'lzip'
+brew 'ddrescue'
 brew 'dex2jar'
 brew 'dmd'
 brew 'editorconfig'
@@ -65,13 +72,15 @@ brew 'wxmac'
 brew 'erlang'
 brew 'elixir'
 brew 'exiftool'
+brew 'faac'
 brew 'fcrackzip'
-brew 'x264'
+brew 'texi2html'
+brew 'yasm'
 brew 'lame'
+brew 'x264'
 brew 'xvid'
 brew 'webp', args: ['universal']
-brew 'ffmpeg'
-brew 'fish'
+brew 'ffmpeg', args: ['with-faac']
 brew 'flow'
 brew 'harfbuzz'
 brew 'pango'
@@ -81,10 +90,10 @@ brew 'go'
 brew 'fzf'
 brew 'gd', args: ['universal']
 brew 'gdb'
-brew 'gdbm'
 brew 'gdk-pixbuf'
 brew 'git-flow'
 brew 'gnu-apl'
+brew 'gnu-sed', args: ['with-default-names']
 brew 'libtasn1', args: ['universal']
 brew 'nettle'
 brew 'gnutls'
@@ -97,22 +106,25 @@ brew 'haskell-stack'
 brew 'lua'
 brew 'highlight'
 brew 'htop-osx'
+brew 'little-cms2', args: ['universal']
+brew 'imagemagick'
 brew 'irssi'
+brew 'jo'
 brew 'john-jumbo'
+brew 'oniguruma'
+brew 'jq'
 brew 'libdnet'
-brew 'libevent'
 brew 'libusb', args: ['universal']
 brew 'libusb-compat', args: ['universal']
 brew 'libgphoto2', args: ['universal']
 brew 'libicns', args: ['universal']
 brew 'libmagic'
 brew 'libvo-aacenc'
-brew 'libyaml'
-brew 'little-cms2', args: ['universal']
 brew 'lua51'
-brew 'lzip'
 brew 'mas'
 brew 'mecab'
+brew 'mecab-ipadic'
+brew 'micro'
 brew 'mongodb'
 brew 'mplayer'
 brew 'nkf'
@@ -122,10 +134,12 @@ brew 'pacvim'
 brew 'pdfcrack'
 brew 'peco'
 brew 'pkcrack'
+brew 'postgresql'
 brew 'progress'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'qemu'
+brew 'qt'
 brew 'yara'
 brew 'radare2'
 brew 'ruby-build'
@@ -150,6 +164,8 @@ brew 'winetricks'
 brew 'youtube-dl'
 brew 'zsh', args: ['without-etcdir']
 brew 'zsh-completions'
+brew 'homebrew/boneyard/shiboken'
+brew 'homebrew/boneyard/pyside'
 brew 'homebrew/python/scapy'
 brew 'tkengo/highway/highway'
 cask 'betterzipql'
@@ -160,13 +176,15 @@ cask 'qlcolorcode'
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen'
+cask 'qlvideo'
 mas 'LINE', id: 539883307
 mas 'Keynote', id: 409183694
+mas 'Xccello', id: 785109225
 mas 'Todoist', id: 585829637
-mas 'iPhoto', id: 408981381
+mas 'GarageBand', id: 682658836
 mas 'The Unarchiver', id: 425424353
 mas 'GIPHY CAPTURE', id: 668208984
-mas 'GarageBand', id: 682658836
+mas 'iPhoto', id: 408981381
 mas 'Beautiful Earth', id: 1041381991
 mas 'SourceTree', id: 411678673
 mas 'StreamCloud', id: 894578573
@@ -175,8 +193,10 @@ mas 'Xcode', id: 497799835
 mas 'DMesh', id: 480992638
 mas 'Pages', id: 409201541
 mas 'feedly', id: 865500966
-mas 'Numbers', id: 409203825
+mas 'Bear', id: 1091189122
 mas 'iMovie', id: 408981434
+mas 'Numbers', id: 409203825
+mas 'Spark', id: 1176895641
 mas 'Slack', id: 803453959
 mas 'DrCleaner', id: 921458519
 mas 'Pixlr', id: 880663569
