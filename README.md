@@ -23,12 +23,12 @@ $ ./update.sh
 - editorconfig
 - Homebrew & mas
 - git
+- GoogleIME
 - Haroopad
 - htop
 - Karabinar
 - npm
 - tmux
-- Vim
 - zsh
 
 ## TODO
