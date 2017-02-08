@@ -15,6 +15,9 @@ if [[ -s $HOME/.nvm/nvm.sh ]] ; then source $HOME/.nvm/nvm.sh ; fi
 export GOPATH=$HOME/.go
 export PATH=${GOPATH}/bin:$PATH
 
+# disable homebrew's auto-update
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # export CLICOLOR=1
 # export LSCOLORS=exfxcxdxbxegedabagacad
 
