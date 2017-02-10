@@ -18,6 +18,10 @@ function shinchoku {
 
 }
 
+function mdir {
+	mkdir $1 && cd $_
+}
+
 function cdp {
 	local dir="$( ls -1d */ | peco )"
 	if [ ! -z "$dir" ] ; then

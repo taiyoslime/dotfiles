@@ -17,7 +17,7 @@ alias github="open http://github.com"
 
 alias ...="cd ../.."
 
-alias batt="pmset -g ps | tail -n 1 | awk '{print $2" : "$4}' | sed 's/;//'"
+alias batt="pmset -g ps | tail -n 1 | awk '{print \$2\" : \"\$4}' | sed 's/;//'"
 # <=> /usr/local/bin/battery
 
 
@@ -31,8 +31,8 @@ alias ydl-audio="youtube-dl -f 'bestaudio[ext!=webm]' --audio-quality 0 -o '~/De
 alias ydl-list="youtube-dl -F"
 
 # git utility
-alias gp="git push -u origin master"
-alias gc="git commit -a -m"
+alias gp="git push"
+alias gc="git commit -am"
 alias gs="git status -s"
 
 # thefuck configuration
