@@ -21,7 +21,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # export CLICOLOR=1
 # export LSCOLORS=exfxcxdxbxegedabagacad
 
-export local=~/Vagrant/local
+export VM=~/Vagrant/ubuntu-15.04
 export WORK=~/Desktop/Project
 
 export PATH="$PATH:~/.bin"

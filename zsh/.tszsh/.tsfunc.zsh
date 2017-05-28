@@ -114,19 +114,28 @@ fi
 
 
 function l2v (){
-	cp $1 $local && echo "copied ${1} to ${local}"
+	cp $1 $VM && echo "copied ${1} to ${VM}"
 }
 
-function vsta () {
-    local dir=`pwds`
-    cd $local
+function vstat () {
+    local dir=`pwd`
+    cd $VM
     vagrant "${1:-status}"
     cd $dir
 }
 
 function vu(){
-	cd $local
+	local dir=`pwd`
+	cd $VM
 	vagrant up &&  vagrant ssh
+	cd $dir
+}
+
+function vd(){
+	local dir=`pwd`
+	cd $VM
+	vagrant halt
+	cd $dir
 }
 
 function  nowplaying_tweet(){
