@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>EISUU to SPACE</name>
+		<identifier>private.misc.space.EISUU_to_SPACE</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::JIS_EISUU,
+			KeyCode::SPACE
+		</autogen>
+	</item>
+    <item>
+		<name>KANA to SPACE</name>
+		<identifier>private.misc.space.KANA_to_SPACE</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::JIS_KANA,
+			KeyCode::SPACE
+		</autogen>
+	</item>
+</root>
