@@ -2,4 +2,5 @@
 <root>
 	<include path="app/slack.xml" />
 	<include path="misc/space.xml" />
+	<include path="app/undertale.xml" />
 </root>

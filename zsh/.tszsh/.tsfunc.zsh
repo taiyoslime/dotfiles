@@ -1,22 +1,3 @@
-function shinchoku {
-
-	arr=("twitter.com" "youtube.com" "nicovideo.jp" )
-
-	for i in "${arr[@]}"
-	do
-		sudo sh -c "echo '127.0.0.1 "${i}"' >> /etc/hosts"
-		echo "[ACCESS✕]:${i}"
-	done
-	sudo killall -HUP mDNSResponder
-	echo "Press [Enter] to quit."
-	read tmp
-	for i in "${arr[@]}"
-	do
-		sudo sed -i "/"${i}"/d" /etc/hosts
-	done
-	sudo killall -HUP mDNSResponder
-
-}
 
 function mdir {
 	mkdir $1 && cd $_
