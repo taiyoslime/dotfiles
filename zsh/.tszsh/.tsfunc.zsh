@@ -28,6 +28,12 @@ function stprsenmd {
 function agvim () {
 	vim $(ag $@ | peco --query "$LBUFFER" | awk -F : '{print "-c " $2 " " $1}')
 }
+function dict(){
+	open dict://$1
+}
+
+
+
 
 # usage
 #

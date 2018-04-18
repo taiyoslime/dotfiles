@@ -4,7 +4,6 @@ alias grep="ag"
 alias open="open ."
 alias atom="atom ."
 alias v="vagrant"
-alias dict="open dict://"
 alias :q="quit||exit"
 alias q="quit||exit"
 # typo
