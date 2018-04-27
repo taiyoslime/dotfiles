@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>UNDERTALE</appname>
+		<equal>com.tobyfox.undertale</equal>
+	</appdef>
+	<item>
+		<name>WASD control for Undertale</name>
+		<identifier>private.app.undertale.wasd</identifier>
+		<only>UNDERTALE</only>
+		<autogen>
+			__KeyToKey__
+			KeyCode::W,
+			KeyCode::CURSOR_UP
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::A,
+			KeyCode::CURSOR_LEFT
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::S,
+			KeyCode::CURSOR_DOWN
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::D,
+			KeyCode::CURSOR_RIGHT
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::SPACE,
+			KeyCode::Z
+		</autogen>
+	</item>
+</root>

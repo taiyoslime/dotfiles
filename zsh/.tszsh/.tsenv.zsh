@@ -26,6 +26,6 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export VM=~/Vagrant/ubuntu-15.04
 export WORK=~/Desktop/Project
 
-export PATH="$PATH:~/.bin"
+export PATH="$PATH:$HOME/.bin"
 export PATH="$WORK/dotfiles/applescript:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
