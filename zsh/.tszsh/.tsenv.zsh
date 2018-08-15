@@ -26,6 +26,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export VM=~/Vagrant/ubuntu-15.04
 export WORK=~/Desktop/Project
 
+export PATH=":$PATH:$HOME/.robotech/bin"
+
 export PATH="$PATH:$HOME/.bin"
 export PATH="$WORK/dotfiles/applescript:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="/usr/local/Cellar/gcc/8.1.0/bin:$PATH"

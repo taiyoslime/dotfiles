@@ -42,3 +42,6 @@ alias shit='eval "$(thefuck --alias)"'
 alias ghc="stack ghc"
 alias runghc="stack runghc"
 alias ghci="stack ghci"
+
+alias g++="g++-8"
+alias gcc="gcc-8"

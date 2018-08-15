@@ -58,7 +58,7 @@ function g(){
 # to run a C++ program
 function a()
 {
-	g++ $1 -std=c++11 -Wall -O2
+	g++ $1 -std=c++1z -Wall -O2 -Wextra -Wconversion -pedantic
 	if [ $? -eq 0 ]; then
 		echo -e '\e[32m [Build Success] \e[m'
 		./a.out
