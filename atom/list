@@ -1,7 +1,9 @@
 angularjs
 atom-beautify
 atom-debugger
+atom-html-preview
 atom-jshint
+atom-latex
 auto-encoding
 autoclose-html
 autocomplete-clang
@@ -12,7 +14,6 @@ busy-signal
 color-picker
 cpptools
 docblockr
-editorconfig
 emmet
 expose
 file-icons
@@ -25,7 +26,9 @@ jslint
 language-babel
 language-haskell
 language-x86asm
+latex
 linter
+linter-chktex
 linter-csslint
 linter-eslint
 linter-gcc
@@ -43,7 +46,7 @@ maximize-panes
 minimap
 minimap-autohide
 open-in-browser
-pigments
+pdf-view
 processing
 processing-autocomplete
 processing-language
@@ -61,3 +64,4 @@ terminal-plus
 tidy-markdown
 tree-view-finder
 vim-mode
+wordcount

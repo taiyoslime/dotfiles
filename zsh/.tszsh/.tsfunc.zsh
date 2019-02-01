@@ -1,8 +1,3 @@
-
-function mdir {
-	mkdir $1 && cd $_
-}
-
 function cdp {
 	local dir="$( ls -1d */ | peco )"
 	if [ ! -z "$dir" ] ; then
@@ -31,9 +26,6 @@ function agvim () {
 function dict(){
 	open dict://$1
 }
-
-
-
 
 # usage
 #
