@@ -31,3 +31,7 @@ alias ghci="stack ghci"
 
 alias g++="g++-8"
 alias gcc="gcc-8"
+
+# CTF
+alias objdump="gobjdump -M intel"
+alias disasm="objdump -d"

@@ -107,13 +107,7 @@ function vu(){
 	local dir=`pwd`
 	cd $VM
 	vagrant up &&  vagrant ssh
-	cd $dir
-}
-
-function vd(){
-	local dir=`pwd`
-	cd $VM
-	vagrant halt
+    vagrant halt
 	cd $dir
 }
 

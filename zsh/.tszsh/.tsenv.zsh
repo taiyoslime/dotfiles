@@ -23,12 +23,14 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # export CLICOLOR=1
 # export LSCOLORS=exfxcxdxbxegedabagacad
 
-export VM=~/Vagrant/ubuntu-15.04
+export VM=~/Vagrant/ubuntu-18.04
 export WORK=~/Desktop/Project
 
-export PATH=":$PATH:$HOME/.robotech/bin"
+export PATH="$HOME/.robotech/bin:$PATH"
 
-export PATH="$PATH:$HOME/.bin"
+export PATH="$HOME/.bin:$PATH"
 export PATH="$WORK/dotfiles/applescript:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/Cellar/gcc/8.1.0/bin:$PATH"
+
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH" 
