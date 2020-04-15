@@ -26,11 +26,13 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 export VM=~/Vagrant/ubuntu-18.04
 export WORK=~/Desktop/Project
 
-export PATH="$HOME/.robotech/bin:$PATH"
 
 export PATH="$HOME/.bin:$PATH"
 export PATH="$WORK/dotfiles/applescript:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
-export PATH="/usr/local/Cellar/gcc/8.1.0/bin:$PATH"
+export PATH="/usr/local/Cellar/gcc/9.2.0/bin:$PATH"
 
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH" 
+
+export PATH="/usr/local/opt/ncurses/bin:$PATH"
+
+export PATH="$HOME/.nodebrew/current/bin:$PATH"

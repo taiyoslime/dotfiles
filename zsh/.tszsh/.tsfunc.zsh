@@ -111,7 +111,7 @@ function vu(){
 	cd $dir
 }
 
-function  nowplaying_tweet(){
+function nowplaying_tweet(){
 	v=$(nowplaying)
 	if [ -n $v ];then
 		echo "Tweet: \n$v\n"
@@ -120,13 +120,6 @@ function  nowplaying_tweet(){
 	fi
 }
 
-
-function mk(){
-	if [ "${1##*.}" = "cpp" ]; then
-		# seems to be bad..
-		echo "#include <bits/stdc++.h>\nusing namespace std;\nint main(){\n\n}">$1
-	fi
-}
 
 # Finder utilities
 function fshow(){
@@ -160,7 +153,6 @@ function extract() {
     *.arj) unarj $1;;
   esac
 }
-
 
 
 # あんぽんたん => ｱﾝﾎﾟﾝﾀﾝ

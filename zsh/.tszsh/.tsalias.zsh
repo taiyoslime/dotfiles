@@ -29,8 +29,8 @@ alias ghc="stack ghc"
 alias runghc="stack runghc"
 alias ghci="stack ghci"
 
-alias g++="g++-8"
-alias gcc="gcc-8"
+alias g++="g++-9"
+alias gcc="gcc-9"
 
 # CTF
 alias objdump="gobjdump -M intel"
