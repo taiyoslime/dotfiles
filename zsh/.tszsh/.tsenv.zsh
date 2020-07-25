@@ -32,7 +32,7 @@ export PATH="$WORK/dotfiles/applescript:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/Cellar/gcc/9.2.0/bin:$PATH"
 
-
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
+export PATH="/usr/local/opt/binutils/bin:$PATH"
