@@ -2,6 +2,7 @@
 	user = taiyoslime
 	email = t@iyosli.me
 	name = taiyoslime
+	signingkey = 8685988AC7DC78EBA3F3C2557574D81762BFB92A
 [core]
 	excludesfile = /Users/taiyoslime/.gitignore
 	quotepath = false
@@ -20,3 +21,7 @@
 	trustExitCode = true
 [credential]
 	helper = osxkeychain
+[gpg]
+	program = /usr/local/bin/gpg
+[commit]
+	gpgsign = true
