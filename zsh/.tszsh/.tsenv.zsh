@@ -5,7 +5,6 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 if [ -d "${PYENV_ROOT}" ]; then
 	export PATH=${PYENV_ROOT}/bin:$PATH
 	eval "$(pyenv init -)"
-	eval "$(pyenv virtualenv-init -)"
 fi
 
 export PATH=${HOME}/.rbenv/bin:$PATH
@@ -37,5 +36,7 @@ export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
 export PATH="/usr/local/opt/binutils/bin:$PATH"
 export PATH=$PATH:/usr/local/opt/riscv-gnu-toolchain/bin
+
+export PATH="$HOME/.poetry/bin:$PATH"
 
 source ~/.cargo/env
