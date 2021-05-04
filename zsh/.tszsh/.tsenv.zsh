@@ -27,6 +27,7 @@ export WORK=~/Desktop/Project
 
 
 export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$WORK/dotfiles/applescript:$PATH"
 # export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/Cellar/gcc/9.2.0/bin:$PATH"
